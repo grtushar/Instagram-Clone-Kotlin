@@ -1,6 +1,6 @@
 package com.grtushar.instagram.screens.editprofile
 
-import android.arch.lifecycle.LiveData
+import androidx.lifecycle.LiveData
 import android.net.Uri
 import com.grtushar.instagram.data.UsersRepository
 import com.grtushar.instagram.models.User

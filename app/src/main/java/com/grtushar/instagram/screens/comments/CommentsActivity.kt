@@ -1,10 +1,10 @@
 package com.grtushar.instagram.screens.comments
 
-import android.arch.lifecycle.Observer
+import androidx.lifecycle.Observer
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
-import android.support.v7.widget.LinearLayoutManager
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.grtushar.instagram.R
 import com.grtushar.instagram.models.User
 import com.grtushar.instagram.screens.common.BaseActivity

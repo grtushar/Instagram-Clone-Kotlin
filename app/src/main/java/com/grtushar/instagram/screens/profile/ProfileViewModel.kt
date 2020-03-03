@@ -1,6 +1,6 @@
 package com.grtushar.instagram.screens.profile
 
-import android.arch.lifecycle.LiveData
+import androidx.lifecycle.LiveData
 import com.grtushar.instagram.data.UsersRepository
 import com.grtushar.instagram.screens.common.BaseViewModel
 import com.google.android.gms.tasks.OnFailureListener

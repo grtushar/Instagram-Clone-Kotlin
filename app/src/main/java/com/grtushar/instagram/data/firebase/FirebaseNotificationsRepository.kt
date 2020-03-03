@@ -1,6 +1,6 @@
 package com.grtushar.instagram.data.firebase
 
-import android.arch.lifecycle.LiveData
+import androidx.lifecycle.LiveData
 import com.grtushar.instagram.common.toUnit
 import com.grtushar.instagram.data.NotificationsRepository
 import com.grtushar.instagram.data.common.map

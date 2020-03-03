@@ -1,6 +1,6 @@
 package com.grtushar.instagram.data.firebase
 
-import android.arch.lifecycle.LiveData
+import androidx.lifecycle.LiveData
 import com.grtushar.instagram.common.*
 import com.grtushar.instagram.data.FeedPostLike
 import com.grtushar.instagram.data.FeedPostsRepository

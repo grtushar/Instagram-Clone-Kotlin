@@ -3,7 +3,7 @@ package com.grtushar.instagram.screens.common
 import android.app.Activity
 import android.content.Context
 import android.graphics.Typeface
-import android.support.v4.content.ContextCompat
+import androidx.core.content.ContextCompat
 import android.text.*
 import android.text.method.LinkMovementMethod
 import android.text.style.ClickableSpan

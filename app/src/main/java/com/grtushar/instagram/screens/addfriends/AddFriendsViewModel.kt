@@ -1,6 +1,6 @@
 package com.grtushar.instagram.screens.addfriends
 
-import android.arch.lifecycle.LiveData
+import androidx.lifecycle.LiveData
 import com.grtushar.instagram.data.FeedPostsRepository
 import com.grtushar.instagram.data.UsersRepository
 import com.grtushar.instagram.data.common.map

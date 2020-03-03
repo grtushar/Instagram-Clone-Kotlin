@@ -1,6 +1,6 @@
 package com.grtushar.instagram.screens.editprofile
 
-import android.arch.lifecycle.Observer
+import androidx.lifecycle.Observer
 import android.content.Intent
 import android.os.Bundle
 import com.grtushar.instagram.R

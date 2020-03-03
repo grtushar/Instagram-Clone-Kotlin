@@ -1,6 +1,6 @@
 package com.grtushar.instagram.screens.home
 
-import android.arch.lifecycle.LiveData
+import androidx.lifecycle.LiveData
 import com.grtushar.instagram.common.SingleLiveEvent
 import com.grtushar.instagram.data.FeedPostsRepository
 import com.grtushar.instagram.data.common.map

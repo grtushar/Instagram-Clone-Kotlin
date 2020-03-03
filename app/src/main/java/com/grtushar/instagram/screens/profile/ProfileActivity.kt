@@ -1,9 +1,9 @@
 package com.grtushar.instagram.screens.profile
 
-import android.arch.lifecycle.Observer
+import androidx.lifecycle.Observer
 import android.content.Intent
 import android.os.Bundle
-import android.support.v7.widget.GridLayoutManager
+import androidx.recyclerview.widget.GridLayoutManager
 import android.util.Log
 import com.grtushar.instagram.R
 import com.grtushar.instagram.screens.addfriends.AddFriendsActivity

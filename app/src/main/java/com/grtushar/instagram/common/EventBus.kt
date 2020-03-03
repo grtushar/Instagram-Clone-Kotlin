@@ -1,7 +1,7 @@
 package com.grtushar.instagram.common
 
-import android.arch.lifecycle.LiveData
-import android.arch.lifecycle.MutableLiveData
+import androidx.lifecycle.LiveData
+import androidx.lifecycle.MutableLiveData
 import com.grtushar.instagram.models.Comment
 import com.grtushar.instagram.models.FeedPost
 

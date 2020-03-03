@@ -1,6 +1,6 @@
 package com.grtushar.instagram
 
-import android.support.test.runner.AndroidJUnit4
+import androidx.test.ext.junit.runners.AndroidJUnit4
 import com.grtushar.instagram.common.formatRelativeTimestamp
 
 import org.junit.Test

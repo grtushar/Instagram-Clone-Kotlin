@@ -1,6 +1,6 @@
 package com.grtushar.instagram.screens.notifications
 
-import android.arch.lifecycle.LiveData
+import androidx.lifecycle.LiveData
 import com.grtushar.instagram.data.NotificationsRepository
 import com.grtushar.instagram.models.Notification
 import com.grtushar.instagram.screens.common.BaseViewModel

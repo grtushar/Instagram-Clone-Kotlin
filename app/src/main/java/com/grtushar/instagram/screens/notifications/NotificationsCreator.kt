@@ -1,6 +1,6 @@
 package com.grtushar.instagram.screens.notifications
 
-import android.arch.lifecycle.Observer
+import androidx.lifecycle.Observer
 import android.util.Log
 import com.grtushar.instagram.common.BaseEventListener
 import com.grtushar.instagram.common.Event

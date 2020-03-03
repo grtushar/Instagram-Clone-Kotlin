@@ -1,7 +1,7 @@
 package com.grtushar.instagram.screens.common
 
-import android.arch.lifecycle.ViewModel
-import android.arch.lifecycle.ViewModelProvider
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.ViewModelProvider
 import com.grtushar.instagram.screens.InstagramApp
 import com.grtushar.instagram.screens.addfriends.AddFriendsViewModel
 import com.grtushar.instagram.screens.comments.CommentsViewModel

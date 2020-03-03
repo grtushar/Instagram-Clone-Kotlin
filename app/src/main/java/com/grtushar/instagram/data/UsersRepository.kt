@@ -1,6 +1,6 @@
 package com.grtushar.instagram.data
 
-import android.arch.lifecycle.LiveData
+import androidx.lifecycle.LiveData
 import android.net.Uri
 import com.grtushar.instagram.models.User
 import com.google.android.gms.tasks.Task

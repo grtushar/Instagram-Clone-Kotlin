@@ -1,6 +1,6 @@
 package com.grtushar.instagram.data.firebase.common
 
-import android.arch.lifecycle.LiveData
+import androidx.lifecycle.LiveData
 import com.grtushar.instagram.common.ValueEventListenerAdapter
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.Query
