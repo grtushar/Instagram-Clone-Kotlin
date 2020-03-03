@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.alexbezhan.instagram">
+    package="com.grtushar.instagram">
 
     <uses-feature
         android:name="android.hardware.camera"
@@ -13,32 +13,32 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        android:name=".screens.InstagramApp">
-        <activity android:name=".screens.home.HomeActivity">
+        android:name="com.grtushar.instagram.screens.InstagramApp">
+        <activity android:name="com.grtushar.instagram.screens.home.HomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".screens.search.SearchActivity" />
-        <activity android:name=".screens.share.ShareActivity" />
-        <activity android:name=".screens.notifications.NotificationsActivity" />
-        <activity android:name=".screens.profile.ProfileActivity" />
-        <activity android:name=".screens.editprofile.EditProfileActivity" />
+        <activity android:name="com.grtushar.instagram.screens.search.SearchActivity" />
+        <activity android:name="com.grtushar.instagram.screens.share.ShareActivity" />
+        <activity android:name="com.grtushar.instagram.screens.notifications.NotificationsActivity" />
+        <activity android:name="com.grtushar.instagram.screens.profile.ProfileActivity" />
+        <activity android:name="com.grtushar.instagram.screens.editprofile.EditProfileActivity" />
         <activity
-            android:name=".screens.login.LoginActivity"
+            android:name="com.grtushar.instagram.screens.login.LoginActivity"
             android:windowSoftInputMode="stateVisible|adjustResize" />
         <activity
-            android:name=".screens.register.RegisterActivity"
+            android:name="com.grtushar.instagram.screens.register.RegisterActivity"
             android:windowSoftInputMode="stateVisible|adjustResize"></activity>
-        <activity android:name=".screens.profilesettings.ProfileSettingsActivity" />
-        <activity android:name=".screens.addfriends.AddFriendsActivity" />
-        <activity android:name=".screens.comments.CommentsActivity" />
+        <activity android:name="com.grtushar.instagram.screens.profilesettings.ProfileSettingsActivity" />
+        <activity android:name="com.grtushar.instagram.screens.addfriends.AddFriendsActivity" />
+        <activity android:name="com.grtushar.instagram.screens.comments.CommentsActivity" />
 
         <provider
             android:name="android.support.v4.content.FileProvider"
-            android:authorities="com.alexbezhan.instagram.fileprovider"
+            android:authorities="com.grtushar.instagram.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data
